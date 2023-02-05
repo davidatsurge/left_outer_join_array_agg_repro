@@ -1,0 +1,12 @@
+[package]
+name = "left_outer_join_array_agg_repro"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.69"
+diesel = { version = "2.0.3", features = ["postgres"] }
+diesel_migrations = { version = "2.0.0", features = ["postgres"] }
+dotenv = "0.15.0"
